@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+#Bodyother {
+    background-image: url("img/bg2.jpg");
+          background-repeat: no-repeat;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          background-attachment: fixed;
+}
+
+html {
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+          box-sizing: inherit;
+}
+.row1{
+          text-align: center;
+          width: 65%;
+          margin: auto;
+}
+
+.column {
+          max-width: 217px;
+          max-height: 405px;
+          float:left;
+          background: #FFFFFF;
+          box-shadow: 4px 4px 100px 5px rgba(0, 0, 0, 0.25);
+          border-radius: 10px;
+          text-align: center;
+          padding: 0 8px;
+          margin: 10px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+          width: 100%;
+          display: block;
+
+  }
+
+}
+
+
+
+.container {
+          padding: 0 16px;
+}
+
+.container::after, .row::after {
+          content: "";
+          clear: both;
+          display: table;
+}
+
+.title {
+          color: grey;
+          font-family: 'Baloo Da 2';
+          font-style: normal;
+          text-align: center;
+}
+
+.button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+}
+#AVAETAR{
+          margin-top: 2px;
+          width: 100%;
+          height: 100;
+          max-width: 190px;
+          max-height: 150px;
+}
+.button:hover {
+          background-color: #555;
+}
+#spaceindex{
+          background-image: url('./spaceindex.png');
+          height: 20px;
+          width:100px;
+          float:left;
+}
+
+nav{
+
+          font-family: 'Baloo Da 2';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 27px;
+          border-bottom: solid;
+          border-top:  solid;
+          padding: 14px 16px;
+          text-align: center;
+}
+
+.searchAl{
+          text-align: center;
+          margin-top: 10px;
+          padding-bottom: 10px;
+}
+
+#search{
+
+          width: 583px;
+          height: 29px;
+          background: rgba(167, 130, 130, 0.2);
+          border-radius: 10px;
+}
+footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          text-align: center;
+}
+#edit{
+          background: #06ABED;
+          border-radius: 10px;
+          font-family: 'Baloo Da 2';
+          font-style: normal;
+          color: #FFFFFF;
+          text-align: center;
+}
+#view{
+
+          background: #21E1AE;
+          border-radius: 10px;
+          font-family: 'Baloo Da 2';
+          font-style: normal;
+          color: #FFFFFF;
+          text-align: center;
+}
+#delete{
+          background: #FD0000;
+          border-radius: 10px;
+          font-family: 'Baloo Da 2';
+          font-style: normal;
+          color: #FFFFFF;
+          text-align: center;
+         
+
+}
+#signout{
+        
+          background: #FD0000;
+          border-radius: 10px;
+          color: #FFFFFF;
+          font-family: 'Baloo Da 2';
+          font-style: normal;
+          padding: 5px 5px 5px 5px;
+          z-index:15;
+}
+

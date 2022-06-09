@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+.otherbody{
+           background-image: url("img/bg.jpg");
+          background-repeat: no-repeat;
+          /* -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover; */
+          /* background-size: 100hv;
+          background-attachment: fixed;  */
+          background: #FD0000;
+
+}
+.home {
+        background-image: url("img/bghome.jpg");
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+
+}
+
+#signout{
+          position: absolute;
+          width: 137px;
+          height: 35px;
+          left: 52px;
+          top: 900px;
+          background: #FD0000;
+          border-radius: 10px;
+          color: #FFFFFF;
+          font-family: 'Baloo Da 2';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+          padding: 5px 5px 5px 5px;
+          z-index:15;
+}
+.flex-container{
+          display: flex;
+          margin-top: 30;
+          flex-wrap: wrap;
+          margin-left: 40;
+}
+.box{
+          height: 250px;
+          min-width: 3%;
+          text-align: center;
+          flex-basis: 200px;
+          padding-top: 20px;
+}
+.wrapper{
+          width: 100%;
+          max-width: 90%;
+          margin-top: 20px
+}
+nav{
+
+          font-family: 'Baloo Da 2';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 27px;
+          border-bottom: solid;
+          border-top:  solid;
+          padding: 14px 16px;
+          text-align: center;
+}
+.footer {
+          position: absolute;
+          left: 0;
+          top:900px;
+          width: 100%;
+          color: white;
+          align-items: center;
+          font-family: 'Baloo Da 2';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 37px;
+          color: rgba(0, 0, 0, 0.5);
+}
+#spaceindex{
+          height: 20px;
+          width:10px;
+          float:left;
+}
+#leftdiv{
+          float:right;
+        }
+#learnMore{
+          position: absolute;
+          width: 137px;
+          height: 35px;
+          left: 450px;
+          top: 668px;
+          background: linear-gradient(180deg, #21E1AE 0%, rgba(6, 171, 237, 0.87) 100%);
+          border-radius: 10px;
+          color: #FFFFFF;
+          font-family: 'Baloo Da 2';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+}
+.welText{
+        position: absolute;
+        width: 419px;
+        height: 61px;
+        left: 300px;
+        top: 292px;
+        font-family: 'Baloo Da 2';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 61px;
+        color: black;
+
+}
+.left{
+          position: absolute;
+          width: 606px;
+          height: 665px;
+          left: 450px;
+          top: 147px;
+          background: #FFFFFF;
+          box-shadow: 4px 4px 100px 5px rgba(0, 0, 0, 0.75);
+          border-radius: 15px;
+
+}
+.right{
+          position: absolute;
+          width: 671px;
+          height: 798px;
+          left: 1000px;
+          top: 100px;
+          background: linear-gradient(180deg, #21E1AE 0%, rgba(6, 171, 237, 0.87) 100%);
+          background-image: url("img/pattern2.jpg");
+          background-size: cover;
+          border-radius: 15px;
+          background-repeat: no-repeat;
+
+
+}
+.loginText{
+        
+          text-decoration: underline;
+          position: absolute;
+          width: 500px;
+          height: 45px;
+          left: 100px;
+          top: -50px;
+          font-family: 'Baloo Da 2';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 27px;
+          line-height: 45px;
+          color: #050000;
+}
+.addText{
+        text-decoration: underline;
+        position: absolute;
+        width: 500px;
+        height: 45px;
+        left: 50px;
+        top: -0px;
+        font-family: 'Baloo Da 2';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 45px;
+        color: #050000
+}
+#email{
+          background-image: url("icons/email_black_24dp.svg");
+          background-repeat: no-repeat;
+}
+#Signup{
+          position: absolute;
+          width:175px;
+          height: 60px;
+          left: 250px;
+          top: 400px;
+          text-align: center;
+          background: linear-gradient(180deg, #21E1AE 0%, rgba(6, 171, 237, 0.87) 100%);
+          border: 1px solid #000000;
+          border-radius: 5px;
+
+}
+#addEmpBtn{
+        position: absolute;
+          width:175px;
+          height: 60px;
+          left: 250px;
+          top: 400px;
+          text-align: center;
+          background: linear-gradient(180deg, #21E1AE 0%, rgba(6, 171, 237, 0.87) 100%);
+          border: 1px solid #000000;
+          border-radius: 5px;
+        
+}
+
+#positionTemplate{
+          position: absolute;
+          width: 42px;
+          height: 27px;
+          left: 75px;
+          top: 200px;
+          font-family: 'Baloo Da 2';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 27px;
+          color: #000000;
+}
+
+#nameTemplate{
+          position: absolute;
+          width: 250px;
+          height: 35px;
+          left: 50px;
+          top: 180px;
+          font-family: 'Baloo Da 2';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 35px;
+          color: #000000;
+}
+#search{
+          position: absolute;
+          width: 583px;
+          height: 29px;
+          left: 452px;
+          top: 50px;
+          background: rgba(167, 130, 130, 0.2);
+          border-radius: 10px;
+}
+#welText{
+          position: absolute;
+          width: 153px;
+          height: 54px;
+          left: 270px;
+          top: 210px;
+          font-family: 'Baloo Da 2';
+          font-style: normal;
+          text-align: center;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 54px;
+          color: #FFFFFF;
+}
+#logtext2{
+          position: absolute;
+          width: 437px;
+          height: 37px;
+          left:150px;
+          top: 300px;
+          font-family: 'Baloo Da 2';
+          text-align: center;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 37px;
+          color: #F8F8F8;
+
+
+}
+#AddEmpText{
+        position: absolute;
+        width: 437px;
+        height: 37px;
+        left:150px;
+        top: 250px;
+        font-family: 'Baloo Da 2';
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 37px;
+        color: #F8F8F8;
+}
+#Login{
+          position: absolute;
+          width:250px;
+          height: 60px;
+          left: 70px;
+          top: 400px;
+          text-align: center;
+          background: linear-gradient(180deg, #21E1AE 0%, rgba(6, 171, 237, 0.87) 100%);
+          border: 1px solid #000000;
+          border-radius: 5px;
+}
+#addEmp{
+        position: absolute;
+        width:250px;
+        height: 60px;
+        left: 70px;
+        top: 400px;
+        text-align: center;
+        background: linear-gradient(180deg, #21E1AE 0%, rgba(6, 171, 237, 0.87) 100%);
+        border: 1px solid #000000;
+        border-radius: 5px;
+}
+
+form{
+          position: absolute;
+          width: 551px;
+          height: 466px;
+          left: 111px;
+          top: 50px;
+}
+#email {
+          position: absolute;
+          width: 457px;
+          height: 82px;
+          left: -45px;
+          top: 50px;
+          font-size:22px;
+          text-align: center;
+          background: #FFFFFF;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          border-radius: 8px;
+}
+#fullName{
+        position: absolute;
+        width: 457px;
+        height: 82px;
+        left: -45px;
+        top: 80px;
+        font-size:22px;
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+}
+#Pass {
+          position: absolute;
+          width: 457px;
+          height: 82px;
+          left: -45px;
+          top: 180px;
+          font-size:22px;
+          text-align: center;
+          background: #FFFFFF;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          border-radius: 8px;
+}
+#postion{
+        position: absolute;
+        width: 457px;
+        height: 82px;
+        left: -45px;
+        top: 210px;
+        font-size:22px;
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+}
+#email2{
+          position: absolute;
+          width: 457px;
+          height: 82px;
+          left: -45px;
+          top: 20px;
+          text-align: center;
+          font-size:22px;
+          background: #FFFFFF;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          border-radius: 8px;
+}
+#name{
+          position: absolute;
+          width: 457px;
+          height: 82px;
+          left: -45px;
+          top: 120px;
+          font-size:22px;
+          text-align: center;
+          background: #FFFFFF;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          border-radius: 8px;
+}
+#number{
+          position: absolute;
+          width: 457px;
+          height: 82px;
+          left: -45px;
+          top: 220px;
+          font-size:22px;
+          text-align: center;
+          background: #FFFFFF;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          border-radius: 8px;
+}
+#Pass1{
+          position: absolute;
+          width: 457px;
+          height: 82px;
+          left: -45px;
+          top: 320px;
+          font-size:22px;
+          text-align: center;
+          background: #FFFFFF;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          border-radius: 8px;
+}
+#Pass2{
+          position: absolute;
+          width: 457px;
+          height: 82px;
+          left: -45px;
+          top: 420px;
+          text-align: center;
+          background: #FFFFFF;
+          font-size:22px;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          border-radius: 8px;
+}
+#check {
+         position: absolute;
+          width: 43px;
+          height: 42px;
+          top:-15px;
+          left:-50px;
+          background: #FFFFFF;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          border-radius: 8px;
+}
+#Register{
+          position: absolute;
+          width:250px;
+          height: 60px;
+          left: 70px;
+          top: 525px;
+          background: linear-gradient(180deg, #21E1AE 0%, rgba(6, 171, 237, 0.87) 100%);
+          border: 1px solid #000000;
+          border-radius: 5px;
+}
+#Exit{
+          position: absolute;
+          width:175px;
+          height: 60px;
+          left: 250px;
+          top: 400px;
+          background: linear-gradient(180deg, #21E1AE 0%, rgba(6, 171, 237, 0.87) 100%);
+          border: 1px solid #000000;
+          border-radius: 5px;
+
+}
+#infoText{
+          text-decoration: underline;
+          position: absolute;
+          width: 700px;
+          height: 45px;
+          left: 50px;
+          top: 50px;
+          font-family: 'Baloo Da 2';
+          font-style: normal;
+          font-weight: 700;
+          font-size:20px;
+          line-height: 45px;
+
+}
+p{
+        width: 147px;
+        height: 45px;
+        left: 310px;
+        top: 217px;
+        font-family: 'Baloo Da 2';
+        font-style: normal;
+        font-weight: 700;
+        font-size:20px;
+        line-height: 45px;
+}
+span{
+          position: absolute;
+          width: 450px;
+          height: 42px;
+          left: 30px;
+          top: 315px;
+        }
